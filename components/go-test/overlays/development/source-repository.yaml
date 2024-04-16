@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: go-test-repository
+spec:
+  url: https://github.com/jrichter-rhtap/long-time-agolang
